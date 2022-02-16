@@ -808,8 +808,8 @@ transition: transform 250ms ;
     width: 30px;
     height: 30px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    transition: color 250ms
-    
+    transition: color 250ms;
+    cursor: pointer;
 }
 .modal-close:hover,
 .modal-close:focus{
@@ -867,7 +867,7 @@ border-color: var(--accent-color);
     transform: translateY(-50%);
     width: 18px;
     height: 18px;
-    transition: fill 2502ms
+    transition: fill 250ms
     cubic-bezier(0.4, 0, 0.2, 1)
 }
 .modal-check-text {
