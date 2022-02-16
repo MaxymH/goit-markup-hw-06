@@ -11,6 +11,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -427,7 +428,11 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="submit" class="modal-close" data-modal-close>X</button>
+            <button type="submit" class="modal-close" data-modal-close>
+                <svg class="modal-icon-close" width="11" height="11">
+                    <use href="./svg/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
             <p class="modal-paragraph">Оставьте свои данные, мы вам перезвоним</p>
             <form class="modal-form">
                 <div class="modal-field">
@@ -435,7 +440,7 @@
                     <div class="input-wrapper">
                         <input type="text" class="modal-input" name="user-name" minlength="2" id="user-name">
 
-                        <svg class="modal-icon" width="18" height="30">
+                        <svg class="modal-icon" width="12" height="12">
                             <use href="./svg/symbol-defs.svg#icon-people"></use>
                         </svg>
                     </div>
@@ -446,7 +451,7 @@
                     <div class="input-wrapper">
                         <input type="tel" class="modal-input" name="user-name" minlength="2" id="user-name">
 
-                        <svg class="modal-icon" width="18" height="18">
+                        <svg class="modal-icon" width="13" height="13">
                             <use href="./svg/symbol-defs.svg#icon-tel"></use>
                         </svg>
                     </div>
@@ -456,7 +461,7 @@
                     <div class="input-wrapper">
                         <input type="email" class="modal-input" name="user-name" minlength="2" id="user-name">
 
-                        <svg class="modal-icon" width="18" height="18">
+                        <svg class="modal-icon" width="15" height="12">
                             <use href="./svg/symbol-defs.svg#icon-email"></use>
                         </svg>
                     </div>
